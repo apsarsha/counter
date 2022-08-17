@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+  padding: 0px;
+  margin: 0px;
+  font-family: inherit;
+}
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #464646;
+}
+.counter_conatiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  margin-top: 1rem;
+}
+span {
+  font-size: 3rem;
+  background-color: #AAAAAA;
+  padding: 12px;
+  margin-left: 16px;
+  margin-right: 16px;
+  border-radius: 50px;
+  color: #fff;
+}
+button {
+  font-size: 4rem;
+  cursor: pointer;
+  background-color: transparent;
+   border: 0px;
+}
